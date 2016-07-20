@@ -1,0 +1,113 @@
+body {
+  background: url("http://randomwallpapers.net/baseball-field-filed-stadium-world-1920x1200-wallpaper376264.jpg") fixed;
+  background-size: cover;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header-logo {
+  background-color: #fff;
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  border-bottom: 1px solid #000;
+}
+
+
+/*teams*/
+
+.nl-heading {
+  background-color: #064185;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0;
+  width: 100%;
+}
+
+.nl-heading h3 {
+  padding: 5px;
+}
+
+.al-heading {
+  background-color: #b20000;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0;
+  width: 100%;
+}
+
+.al-heading h3 {
+  padding: 5px;
+}
+
+.todays-game {
+  background-color: #096f20;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0;
+  width: 100%;
+}
+
+.todays-game h3 {
+  padding: 5px;
+}
+.todays-game-bg{
+  background: url("../assets/images/000000-.6.png");
+}
+
+/*draggable content*/
+
+.square {
+  width: 75px;
+  height: 50px;
+  line-height: 80px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-align: center;
+  float: left;
+  background-color: lightblue;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 999999;
+}
+
+.squaredotted {
+  width: 75px;
+  height: 50px;
+  line-height: 80px;
+  border: 1px dotted gray;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-align: center;
+  float: left;
+  color: gray;
+  background-color: lightgray;
+}
+
+.vs {
+  width: 75px;
+  height: 50px;
+  line-height: 80px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-align: center;
+  float: left;
+  color: gray;
+}
+
+.space {
+  width: 75px;
+  height: 50px;
+  line-height: 80px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-align: center;
+  float: left;
+  color: gray;
+}
